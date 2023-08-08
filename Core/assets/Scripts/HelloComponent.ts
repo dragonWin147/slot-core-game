@@ -7,6 +7,7 @@ export class HelloComponent extends Component {
   lbHello: Label = null;
   start() {
     error("Đây là lớp core, bạn xem thôi đừng sửa ");
+    this.setText();
   }
 
   setText() {
